@@ -19,7 +19,7 @@ class Resultat {
 
 class Matiere {
   final String name;
-  final int note;
+  final double note;
   final int weigh;
   
   const Matiere(this.name, this.note, this.weigh);
@@ -27,7 +27,7 @@ class Matiere {
 
 void main() {
   final notes = Resultat([
-    Matiere("Maths", 15, 9),
+    Matiere("Maths", 15.0, 9),
     Matiere("Histoire Géographie", 12, 3),
     Matiere("Français", 9, 4),
     Matiere("Physiques Chimie", 17, 7),
